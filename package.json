@@ -1,4 +1,20 @@
 {
+<<<<<<< HEAD
+  "name": "taskmangerapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranav Arya",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+=======
   "name": "task-manager",
   "version": "1.0.0",
   "description": "Assignment 1 for backend engineering launchpad",
@@ -18,5 +34,6 @@
   },
   "engines": {
     "node": ">= 18.0.0"
+>>>>>>> 087f87495949056550245aee8c33bad1f4711199
   }
 }
