@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "news-aggregator-api",
   "version": "1.0.0",
@@ -28,3 +29,44 @@
     "supertest": "^7.1.1"
   }
 }
+=======
+{
+<<<<<<< HEAD
+  "name": "taskmangerapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranav Arya",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+=======
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Assignment 1 for backend engineering launchpad",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node -e \"if (process.version.slice(1).split('.')[0] < 18) { console.error('Unsupported Node.js version, please use version 18'); process.exit(1); }\"",
+    "test": "tap test/*.js --disable-coverage"
+  },
+  "author": "Airtribe",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^6.3.4",
+    "tap": "^18.6.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+>>>>>>> 087f87495949056550245aee8c33bad1f4711199
+  }
+}
+>>>>>>> 85673cbea62f58a8e6706a0b8182f8a3730ce6e2
